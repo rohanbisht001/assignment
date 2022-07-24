@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Reset Ends Here */
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: thistle;
+    font-size: larger;
+}
+#title{
+    width: 1520px;
+    height: 100px;
+    background-color: beige;
+}
+#heading{
+    color: black;
+    text-align: center;
+   padding-top: 25px;
+   font-size: 45px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#name{
+    padding-top: 25px ;
+    padding-left: 70px;
+    color: black;
+}
+
+
+#firstname,#lastname{
+    display: inline;
+}
+#emailid{
+   padding: 70px;
+}
+#lastname{
+    padding-left: 10px;
+}
+#firstname,#lastname,#phone,#email,#dob,#doa,#toa,#doctor{
+    height:30px;
+    width: 200px;
+    border-width: 1px;
+    border-radius: 3px;
+    font-size: large;
+}
+#doctor{
+    height: 32px;
+    width: 202px;
+    background-color: white;
+}
+#phonenumber,#timeofappointment,#question1,#question2,#question3{
+    padding-left: 70px;
+}
+#phonenumber,#emailid{
+    padding-top: 25px;
+    color: black;
+    width: 219px;
+    float: left;
+}
+#dateofbirth,#dateofappointment{
+   padding-left: 70px;
+    color: black;
+    width: 219px;
+}
+#timeofappointment,#select_doctor{
+    float: left;
+    padding-top: 20px;
+    color: black;
+    width: 219px;
+}
+#time_of_appointment,#select_doctor{
+    padding-top: 25px;
+}
+#question1,#question2,#question3{
+    padding-top: 20px;
+    color: black;
+}
+#q1y,#q1n,#q2y,#q2n,#q3y,#q3n{
+    padding-top: 20px;
+}
+#sub{
+    padding-top: 60px;
+    padding-left: 190px;
+}
+#submitform{
+    width:170px;
+    height: 50px;
+    border-radius: 10px;
+    color: black;
+    font-size: large;
+}
+.error{
+    border-width: 3px;
+    border-color: red;
+    color: red;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div id="title">
+            <h1 id="heading">Hospital Appointment Form</h1>
+        </div>
+    </header>
+    <form id="appointmentForm">
+        <div id="name">
+            <label>Name</label><br>
+            <div id="fullname">
+                <div id="firstname">
+                    <input type="text" id="firstname" placeholder="First"/>
+                </div>
+                <div id="lastname">
+                    <input type="text" id="lastname" placeholder="Last" />
+                </div>
+            </div> 
+        </div><br>
+        <div id="phonenumber">
+            <label>Phone</label><br>
+            <div id="phone">
+                <input type="number" id="phone" maxlength="10" placeholder="### ### ###"/>
+            </div>  
+        </div>
+        <div id="emailid">
+            <label>Email</label><br>
+            <div id="email">
+                <input type="text" id="email" placeholder="xyz@mail.com"/>
+            </div>
+        </div>
+        <br> <br> <br> <br>  <br>  <br><br>
+    
+        <div id="dateofbirth">
+            <label>Date of Birth</label><br>
+            <div id="dob">
+                <input type="date" id="dob" />
+            </div>
+        </div>
+        <br><br><br>
+        <div id="dateofappointment">
+            <label>Date of Appointment</label><br>
+            <div id="doa">
+                <input type="date" id="doa" />
+            </div>
+        </div>
+        <br><br><br>
+       
+        <div id="timeofappointment">
+            <label>Time of Appointment</label><br>
+            <div id="time">
+                <input type="time" id="toa" />
+            </div>
+        </div>
+        <div id="select_doctor">
+            <label for="doctor">Select Doctor</label><br>
+            <div id="selection">
+                <select name="doctor" id="doctor">
+                    <option value="default" selected disabled hidden>Select an Option</option>
+                    <option value="raja">raja</option>
+                    <option value="raj">raj</option>
+                    <option value="ram">ram</option>
+                    <option value="sham">sham</option>
+                    <option value="raju">raju</option>
+                </select>
+            </div>
+        </div>
+        <br>  <br>  <br>  <br>  <br>  <br>
+       
+        <div id="question1">
+            <p>Do you require dental surgery?</p>
+            <div id="q1y">
+                <input type="radio" id="yes1" name="q1" value="Yes"/>
+                <label for="yes1">Yes</label>
+            </div>
+            <div id="q1n">
+                <input type="radio" id="no1" name="q1" value="No"/>
+                <label for="no1">No</label>
+            </div>  
+        </div>
+        <div id="question2">
+            <p>Have you visited our dental clinic before?</p>
+            <div id="q2y">
+                <input type="radio" id="yes2" name="q2" value="Yes"/>
+                <label for="yes2">Yes</label>
+            </div>
+            <div id="q2n">
+                <input type="radio" id="no2" name="q2" value="No"/>
+                <label for="no2">No</label>
+            </div>   
+        </div>
+        <div id="question3">
+            <p>Have you experienced dental illness/surgeries in the past?</p>
+            <div id="q3y">
+                <input type="radio" id="yes3" name="q3" value="Yes"/>
+                <label for="yes3">Yes</label>
+            </div>
+            <div id="q3n">
+                <input type="radio" id="no3" name="q3" value="No"/>
+                <label for="no3">No</label>
+            </div>
+        </div>
+        <small></small>
+        <div id="sub">
+            <input type="submit" id="submitform" placeholder="Submit" value="Submit"/>
+        </div>
+        
+    </form>
+</body>
+<link href="hospform.css" rel="stylesheet"/>
+<script src="hospform.js"></script>
+</html>
